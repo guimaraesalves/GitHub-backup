@@ -1,0 +1,17 @@
+THREADS
+
+Threads são fluxos de execução (linha de controle) que rodam dentro de um processo. Em processos tradicionais, há uma única linha de controle e um único contador de programa. Porém, alguns Sistemas Operacionais fornecem suporte para múltiplas linhas de controle dentro de um processo (sistemas multi thread).
+
+De fato, um processo pode ser constituído de várias threads, cada uma concorrendo de forma independente pelo uso da UCP. Para tanto, elas podem ter diferentes prioridades e contextos de hardware. Entretanto compartilham todas o mesmo espaço de endereçamento e o mesmo contexto de software (que são características do processo).
+
+Um exemplo tradicional do uso de múltiplas threads seria um navegador web, no qual pode ter uma thread para exigir imagens ou texto enquanto outro thread recupera dados de uma rede.
+
+
+Como vimos, processo é um programa em execução, mas qual a diferança entre o processo de uma aplicação, mas qual a diferença entre o processo de uma aplicação, como Word, para o servidor de um banco dados como o Oracle.
+
+
+🕤️ Aplicação: programa que você chama para executar, ele cria um processo e fica ativo até você o fechar.
+
+🕤️ Serviço: programa que fica executando em segundo plano, normalmente para oferecer alguma funcionalidade de servidor.
+
+
